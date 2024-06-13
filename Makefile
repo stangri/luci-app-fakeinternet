@@ -9,6 +9,7 @@ PKG_VERSION:=0.1.4
 PKG_RELEASE:=5
 
 LUCI_TITLE:=Fakeinternet Web UI
+LUCI_URL:=https://github.com/stangri/luci-app-fakeinternet/
 LUCI_DESCRIPTION:=Provides Web UI for Fakeinternet.
 LUCI_DEPENDS:=+luci-compat +luci-base +fakeinternet
 
