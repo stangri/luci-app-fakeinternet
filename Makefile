@@ -13,6 +13,6 @@ LUCI_URL:=https://github.com/stangri/luci-app-fakeinternet/
 LUCI_DESCRIPTION:=Provides Web UI for Fakeinternet.
 LUCI_DEPENDS:=+luci-compat +luci-base +fakeinternet
 
-include $(TOPDIR)/feeds/luci/luci.mk
+include ../../luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
